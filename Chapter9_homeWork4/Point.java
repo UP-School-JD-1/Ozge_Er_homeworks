@@ -56,10 +56,8 @@ public class Point {
 		
 		switch(direction) {
 		case "Y": 
-			int y1=getY(); //mevcut y degerini alıyorum
-			int newY=y1+s; /* gelen y degeri ile toplayıp yeni bir degiskene atayıp 
-			set içine gönderiyorum y değerini guncellemek  içn. bu kısımda y nin önceki 
-			degerini goz onune almıyor */
+			int y1=getY(); 
+			int newY=y1+s;
 			setY(newY);
 			break;
 			
