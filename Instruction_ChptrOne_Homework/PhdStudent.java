@@ -2,7 +2,7 @@ package ChapterOne_Homework;
 
 public class PhdStudent extends GraduateStudent{
 	
-	boolean qualifyingExamTaken;
+	private boolean qualifyingExamTaken;
 	
 	public PhdStudent(int no,int year,String major,String name,String thesis,String advisor, boolean qualifyingExamTaken) {
 		super(no, year, major, name, thesis, advisor);
