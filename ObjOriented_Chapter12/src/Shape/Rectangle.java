@@ -27,7 +27,11 @@ public class Rectangle extends Shape {
 		//default equals
 		if (o==this) {
 			return true;
-		}
+		} 
+		
+		/*if (o==null){
+		return false;
+		} */
 		
 		//control
 		if(!(o instanceof Rectangle)) {
