@@ -47,8 +47,9 @@ private double radius;
 	
 	@Override
 	public int hashCode() {
-		int stuff=(int) (100*Math.random());
-		return (int) (stuff+getRadius()); //radius double.
+		int hash=5;
+		hash=31*hash+getRadius;
+		return hash;.
 		}
 	
 		
