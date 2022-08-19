@@ -43,8 +43,9 @@ public class Square extends Shape{
 	
 	@Override
 	public int hashCode() {
-		int stuff=(int) (100*Math.random());
-		return (int) (stuff+getEdge()); 
+		int hash=5;
+		hash=31*hash+getLength()+getWidth();
+		return hash;
 		}
 	
 	int getEdge() {
