@@ -49,8 +49,9 @@ public class Rectangle extends Shape {
 	
 	@Override
 	public int hashCode() {
-		int stuff=(int) (101*Math.random());
-		return (int) (stuff+getLength()+getWidth());
+		int hash=5;
+		hash=31*hash+getLength()+getWidth();
+		return hash;
 	}
 	
 	
