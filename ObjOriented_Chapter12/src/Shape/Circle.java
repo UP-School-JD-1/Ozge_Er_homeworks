@@ -48,7 +48,7 @@ private double radius;
 	@Override
 	public int hashCode() {
 		int hash=5;
-		hash=31*hash+getRadius;
+		hash=31*hash+getRadius();
 		return hash;.
 		}
 	
