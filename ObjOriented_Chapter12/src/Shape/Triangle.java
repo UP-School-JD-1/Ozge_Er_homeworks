@@ -49,8 +49,9 @@ public class Triangle extends Shape {
 	
 	@Override
 	public int hashCode() {
-		int stuff=(int) (101*Math.random());
-		return (int) (stuff+getHeight()+getBase()); //radius double.
+		int hash=5;
+		hash=31*hash+getBase()+getHeight();
+		return hash;
 		}
 	
 	
