@@ -1,6 +1,6 @@
 Bir önceki chapterda Student class abstract değildi bu yüzden 
 RandomStudent class ile nesne üretiyorduk. Abstract hale gelince
-nesne ihtiyacı subclasslardan üretildi.
+nesneler subclasslardan üretildi.
 
 *****KOD CIKTISI:*****
 
