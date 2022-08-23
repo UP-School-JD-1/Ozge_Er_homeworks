@@ -4,11 +4,13 @@ public abstract class Students {
 private int year;
 private String major;
 private String name;
+protected int no;
 
-public Students(int year,String major,String name) {
+public Students(int year,String major,String name,int no) {
 	this.year=year;
 	this.major=major;
 	this.name=name;
+	this.no=no;
 	}
 	public abstract void register();
 
@@ -40,5 +42,11 @@ public Students(int year,String major,String name) {
 		this.name=name;
 	}
 
+	public int getNo(){
+		return no;
+	}
+	public void setNo(int no){
+		this.no=no;
+	}
 
 }

@@ -1,15 +1,11 @@
 package hwrk1_abstract;
 
 public class MasterStudents extends GraduateStudent {
-	private int no;
 
 		public MasterStudents(int year, String major, String name, String advisor, String thesis,int no) {
-			super(year, major, name, advisor, thesis);
-			this.no=no;
+			super(year, major, name, advisor, thesis,no);
 		}
-		public int getNo(){
-			return no;
-		}
+
 		@Override
 		public void study() {
 			System.out.println("The Master students study their lectures.");
@@ -56,6 +52,10 @@ public class MasterStudents extends GraduateStudent {
 			hash=31*hash+getNo();
 			return hash;
 		}
+	@Override
+	public String toString(){
+		return "First name:"+getName()+"\nNumber:"+getNo()+"\nMajor:"+getMajor()+"\nAdvisor:"+getAdvisor()+"\nThesis:"+getThesis()+"\nHashCode:"+hashCode();
+	}
 
 		}
 

@@ -4,10 +4,9 @@ public abstract class GraduateStudent extends Students {
 	
 	private String advisor;
 	private String thesis;
-	private int no;
-	public GraduateStudent(int year,String major,String name,String advisor,String thesis) {
-		super(year, major, name);
-		this.no=no;
+
+	public GraduateStudent(int year,String major,String name,String advisor,String thesis,int no) {
+		super(year, major, name,no);
 		this.advisor=advisor;
 		this.thesis=thesis;
 	}

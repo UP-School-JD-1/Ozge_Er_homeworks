@@ -1,15 +1,10 @@
 package hwrk1_abstract;
 
 public class VocationalStudent extends Students {
-	private int no;
-	public VocationalStudent(int year,String major,String name,int no ) {
-		super(year, major, name);
+	public VocationalStudent(int year,String major,String name,int no) {
+		super(year, major, name,no);
 		this.no=no;
 	}
-	public int getNo(){
-		return no;
-	}
-	
 	@Override
 	public void study() {
 		System.out.println("The Vocational student study his lectures.");
@@ -44,6 +39,9 @@ public class VocationalStudent extends Students {
 		int hash=5;
 		hash=31*hash+getNo();
 		return hash;
+	}
+	public String toString(){
+		return "First name:"+getName()+"\nNumber:"+getNo()+"\nMajor:"+getMajor()+"\nHashCode:"+hashCode();
 	}
 
 //	@Override

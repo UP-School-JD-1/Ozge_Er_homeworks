@@ -1,13 +1,11 @@
 package hwrk1_abstract;
 
 public class PhdStudent extends GraduateStudent{
-	private int no;
 	
 	boolean qualifyingExamTaken;
 	
 	public PhdStudent(int year,String major,String name,String thesis,String advisor,int no,boolean qualifyingExamTaken) {
-		super(year, major, name, thesis, advisor);
-		this.no=no;
+		super(year, major, name, advisor, thesis,no);
 		this.qualifyingExamTaken=qualifyingExamTaken;
 	}
 	
@@ -40,10 +38,6 @@ public class PhdStudent extends GraduateStudent{
 		this.qualifyingExamTaken=qualifyingExamTaken;
 	}
 
-	public int getNo(){
-		return no;
-	}
-
 	@Override
 	public boolean equals(Object o) {
 		//default equals
@@ -69,6 +63,11 @@ public class PhdStudent extends GraduateStudent{
 		int hash=5;
 		hash=31*hash+getNo();
 		return hash;
+	}
+
+	@Override
+	public String toString(){
+		return "First name:"+getName()+"\nNumber:"+getNo()+"\nMajor:"+getMajor()+"\nAdvisor:"+getAdvisor()+"\nThesis:"+getThesis()+"\nHashCode:"+hashCode();
 	}
 
 

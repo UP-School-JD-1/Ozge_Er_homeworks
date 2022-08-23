@@ -3,12 +3,10 @@ package hwrk1_abstract;
 public class UndergraduateStudents extends Students {
 	
 	private String minor;
-	private  int no;
 	
 	public UndergraduateStudents (int year,String major,String name, String minor,int no) {
-		super(year, major, name);
+		super(year, major, name,no);
 		this.minor=minor;
-		this.no=no;
 	}
 	@Override
 	public void study() {
@@ -17,7 +15,7 @@ public class UndergraduateStudents extends Students {
 	
 	@Override
 	public void register() {
-		System.out.println("The Undergradute student has registered in the vocational course.");
+		System.out.println("The Undergradute students has registered.");
 	}
 	@Override
 	public boolean equals(Object o) {
@@ -46,6 +44,10 @@ public class UndergraduateStudents extends Students {
 		return hash;
 	}
 
+	@Override
+	public String toString(){
+		return "First name:"+getName()+"\nNumber:"+getNo()+"\nMajor:"+getMajor()+"\nHashCode:"+hashCode();
+	}
 
 	 //get-set method
 	public String getMinor() {
@@ -54,9 +56,6 @@ public class UndergraduateStudents extends Students {
 	
 	public void setMinor(String minor) {
 		this.minor=minor;
-	}
-	public int getNo(){
-		return no;
 	}
 
 	
