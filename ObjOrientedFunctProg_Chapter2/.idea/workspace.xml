@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="29662e8c-45ee-4608-a5d4-96f72bcb52e7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../ObjOrientedFunctProg_Chapter1/bin/hwrk1_polimorfizm/GraduateStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ObjOrientedFunctProg_Chapter1/bin/hwrk1_polimorfizm/GraduateStudent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ObjOrientedFunctProg_Chapter1/bin/hwrk1_polimorfizm/MasterStudents.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ObjOrientedFunctProg_Chapter1/bin/hwrk1_polimorfizm/MasterStudents.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ObjOrientedFunctProg_Chapter1/bin/hwrk1_polimorfizm/PhdStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ObjOrientedFunctProg_Chapter1/bin/hwrk1_polimorfizm/PhdStudent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ObjOrientedFunctProg_Chapter1/bin/hwrk1_polimorfizm/RandomStudents.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ObjOrientedFunctProg_Chapter1/bin/hwrk1_polimorfizm/RandomStudents.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ObjOrientedFunctProg_Chapter1/bin/hwrk1_polimorfizm/RegistrationOffice.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ObjOrientedFunctProg_Chapter1/bin/hwrk1_polimorfizm/RegistrationOffice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ObjOrientedFunctProg_Chapter1/bin/hwrk1_polimorfizm/Students.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ObjOrientedFunctProg_Chapter1/bin/hwrk1_polimorfizm/Students.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ObjOrientedFunctProg_Chapter1/bin/hwrk1_polimorfizm/UndergraduateStudents.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ObjOrientedFunctProg_Chapter1/bin/hwrk1_polimorfizm/UndergraduateStudents.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ObjOrientedFunctProg_Chapter1/bin/hwrk1_polimorfizm/VocationalStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ObjOrientedFunctProg_Chapter1/bin/hwrk1_polimorfizm/VocationalStudent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ObjOrientedFunctProg_Chapter1/src/hwrk1_polimorfizm/GraduateStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ObjOrientedFunctProg_Chapter1/src/hwrk1_polimorfizm/GraduateStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ObjOrientedFunctProg_Chapter1/src/hwrk1_polimorfizm/MasterStudents.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ObjOrientedFunctProg_Chapter1/src/hwrk1_polimorfizm/MasterStudents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ObjOrientedFunctProg_Chapter1/src/hwrk1_polimorfizm/PhdStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ObjOrientedFunctProg_Chapter1/src/hwrk1_polimorfizm/PhdStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ObjOrientedFunctProg_Chapter1/src/hwrk1_polimorfizm/UndergraduateStudents.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ObjOrientedFunctProg_Chapter1/src/hwrk1_polimorfizm/UndergraduateStudents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ObjOriented_Chapter11/bin/Bank/AccountClients.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ObjOriented_Chapter11/bin/Bank/AccountClients.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ObjOriented_Chapter11/bin/Bank/AccountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ObjOriented_Chapter11/bin/Bank/AccountTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ObjOriented_Chapter11/src/Bank/AccountClients.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ObjOriented_Chapter11/src/Bank/AccountClients.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ObjOriented_Chapter12/bin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ObjOriented_Chapter9/bin/.gitignore" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DknnC2PkYtsjMxSo8sNh7iUK12" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="Application.RegistrationOffice (1)">
+    <configuration name="RegistrationOffice (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hwrk1_abstract.RegistrationOffice" />
+      <module name="Polimorfizm_hwrk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hwrk1_abstract.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationOffice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hwrk1_polimorfizm.RegistrationOffice" />
+      <module name="Polimorfizm_hwrk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hwrk1_polimorfizm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RegistrationOffice (1)" />
+        <item itemvalue="Application.RegistrationOffice" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29662e8c-45ee-4608-a5d4-96f72bcb52e7" name="Changes" comment="" />
+      <created>1661252124307</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661252124307</updated>
+      <workItem from="1661252128474" duration="10152000" />
+      <workItem from="1661263361020" duration="216000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
