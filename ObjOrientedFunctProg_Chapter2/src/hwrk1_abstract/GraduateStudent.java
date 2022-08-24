@@ -41,8 +41,3 @@ public abstract class GraduateStudent extends Students {
 	public void setThesis(String thesis) {
 		this.thesis=thesis;
 	}
-
-	public int getNo(){
-		return no;
-	}
-}
