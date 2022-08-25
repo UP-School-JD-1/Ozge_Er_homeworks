@@ -3,22 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="29662e8c-45ee-4608-a5d4-96f72bcb52e7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/hwrk1_abstract/GraduateStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/hwrk1_abstract/GraduateStudent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/hwrk1_abstract/MasterStudents.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/hwrk1_abstract/MasterStudents.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/hwrk1_abstract/PhdStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/hwrk1_abstract/PhdStudent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/hwrk1_abstract/RegistrationOffice.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/hwrk1_abstract/RegistrationOffice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/hwrk1_abstract/Students.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/hwrk1_abstract/Students.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/hwrk1_abstract/UndergraduateStudents.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/hwrk1_abstract/UndergraduateStudents.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/hwrk1_abstract/VocationalStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/hwrk1_abstract/VocationalStudent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/hwrk1_polimorfizm/RandomStudents.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hwrk1_abstract/GraduateStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hwrk1_abstract/GraduateStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hwrk1_abstract/MasterStudents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hwrk1_abstract/MasterStudents.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hwrk1_abstract/PhdStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hwrk1_abstract/PhdStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hwrk1_abstract/RandomStudents.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hwrk1_abstract/RegistrationOffice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hwrk1_abstract/RegistrationOffice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hwrk1_abstract/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hwrk1_abstract/Students.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hwrk1_abstract/UndergraduateStudents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hwrk1_abstract/UndergraduateStudents.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hwrk1_abstract/VocationalStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hwrk1_abstract/VocationalStudent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +71,8 @@
       <updated>1661252124307</updated>
       <workItem from="1661252128474" duration="10152000" />
       <workItem from="1661263361020" duration="216000" />
-      <workItem from="1661275061145" duration="5297000" />
+      <workItem from="1661275061145" duration="6064000" />
+      <workItem from="1661326921484" duration="76000" />
     </task>
     <servers />
   </component>
