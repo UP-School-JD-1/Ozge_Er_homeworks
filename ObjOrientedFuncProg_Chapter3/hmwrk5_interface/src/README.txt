@@ -10,15 +10,13 @@ Locationable interface i implement etmeden.
 
 b.Kurumdaki eskimiş bilgisayarları satma (Product değil)
 
-Stuff class genel bir sınıf. Subclass ları ürün veya değil. Productable interface i
-implement etmez.
+Stuff class genel bir sınıf. Subclass olarak olditems eklenebilir.
 
-Ürün olmayan şey için stuff classtan nesne üretilebilir.
 
 c.Ürettikleri ürünlerden özel günlerde hediye verme(Product ın fiyatı vardı)
 
 
-GiftProducts Priceable a sahip değil. Fiyat bilgisi yok.
+GiftProducts Priceable interface i implement etmez.
 
 
 *****KODUN ÇIKTISI*********
