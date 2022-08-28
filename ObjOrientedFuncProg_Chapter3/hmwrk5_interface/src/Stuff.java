@@ -1,9 +1,8 @@
 import java.util.Scanner;
 
-public class Stuff implements Productable,Priceable {
+public abstract class Stuff {
     protected String skt;
     protected String description;
-    protected String adress;
     protected int productId;
 
     public Stuff(String skt,String description,int productId){
@@ -11,41 +10,16 @@ public class Stuff implements Productable,Priceable {
         this.description=description;
         this.productId=productId;
     }
-    @Override
-    public int price() {
-        Scanner input = new Scanner(System.in);
-        System.out.println("kac adet istiyorsunuz?");
-        int amount= input.nextInt();
-        int price=7500;
-        return amount*price;
-    }
-    @Override
-    public String payment() {
-        String payment="Odemeniz basariyla gerceklesti.";
-        return payment;
-    }
-    public String getAdress(){
-        Scanner input= new Scanner(System.in);
-        System.out.println("Adres bilginizi giriniz:");
-        adress= input.nextLine();
-        return adress;
-    }
-    @Override
+
     public String cargoStateInfo(){
         String info = new String();
         info="Urununuz bir gun icinde kargoya verilecektir.";
         return info;
     }
 
-    @Override
-    public boolean purchase(){
-        return true;
-    }
+    public abstract boolean purchase();
 
-    @Override
-    public boolean retrieval(){
-        return true;
-    }
+    public abstract boolean retrieval();
 
     String getSkt(){
         return skt;

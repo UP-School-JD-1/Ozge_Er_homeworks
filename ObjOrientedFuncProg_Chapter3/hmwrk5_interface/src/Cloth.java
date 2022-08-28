@@ -1,14 +1,11 @@
 import java.util.Scanner;
 
-public class Cloth extends Stuff implements Productable,Priceable,Locationable {
+public class Cloth extends Product implements Locationable  {
     Sizes size;
-    protected Warehouses warehouse;
-    protected String place;
+
     public Cloth(String skt,String description,int productId,Sizes size,Warehouses warehouse,String place){
-        super(skt,description,productId);
+        super(skt,description,productId,warehouse,place);
         this.size=size;
-        this.warehouse=warehouse;
-        this.place=place;
     }
 
     @Override
@@ -18,6 +15,15 @@ public class Cloth extends Stuff implements Productable,Priceable,Locationable {
         int amount= input.nextInt();
         int price=75;
         return amount*price;
+    }
+    @Override
+    public Warehouses warehouse() {
+        return warehouse;
+    }
+
+    @Override
+    public String place() {
+        return place;
     }
 
     @Override
@@ -29,52 +35,38 @@ public class Cloth extends Stuff implements Productable,Priceable,Locationable {
     public boolean retrieval(){
         return true;
     }
-    @Override
-    public Warehouses warehouse() {
-        return warehouse;
-    }
-
-    @Override
-    public String place() {
-        return place;
-
-    }
 
     Sizes getSize(){
         return  size;
     }
 
-    int getProductId(){
-        return productId;
-    }
-
     @Override
     public String toString(){
-        String s = "Urunun satisi varmi?:" + purchase() + "\nUrunun iadesi varmi?:" + retrieval() + "\nBulundugu depo:" + warehouse()+"\nBeden:"+size+"\nFiyat:"+price()+"\nOdeme durumu:"+payment()+"\nKargo durumu:"+cargoStateInfo();
+        String s = "Urunun satisi varmi?:" + purchase() + "\nUrunun iadesi varmi?:" + retrieval() + "\nBulundugu depo:" + warehouse+"\nBeden:"+size+"\nFiyat:"+price()+"\nOdeme durumu:"+payment()+"\nKargo durumu:"+cargoStateInfo()+"\n"+getProductId()+"\nhashcode:"+hashCode();
         return s;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        //default equals
-        if (o==this) {
-            return true;
-        }
-
-        //control
-        if(!(o instanceof Cloth)) {
-            return false;
-        }
-
-        Cloth c = (Cloth) o;
-        return getProductId()==c.getProductId();
-    }
-
-    @Override
-    public int hashCode() {
-        int hash=5;
-        hash=31*hash+getProductId();
-        return hash;
-    }
+//    @Override
+//    public boolean equals(Object o) {
+//        //default equals
+//        if (o==this) {
+//            return true;
+//        }
+//
+//        //control
+//        if(!(o instanceof Cloth)) {
+//            return false;
+//        }
+//
+//        Cloth c = (Cloth) o;
+//        return getProductId()==c.getProductId();
+//    }
+////
+//    @Override
+//    public int hashCode() {
+//        int hash=5;
+//        hash=31*hash+getProductId();
+//        return hash;
+//    }
 
 }

@@ -11,7 +11,7 @@ Locationable interface i implement etmeden.
 b.Kurumdaki eskimiş bilgisayarları satma (Product değil)
 
 Stuff class genel bir sınıf. Subclass ları ürün veya değil. Productable interface i
-implement eder veya etmez.
+implement etmez.
 
 Ürün olmayan şey için stuff classtan nesne üretilebilir.
 

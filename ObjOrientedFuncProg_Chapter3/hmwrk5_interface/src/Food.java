@@ -1,15 +1,11 @@
 import java.util.Scanner;
 
-public class Food extends Stuff implements Priceable,Productable,Locationable {
+public class Food extends Product implements Locationable  {
     private String section;
-    protected Warehouses warehouse;
-    protected String place;
 
     public Food(String skt, String description, String section, int productId,Warehouses warehouse,String place){
-        super(skt,description,productId);
+        super(skt,description,productId,warehouse,place);
         this.section=section;
-        this.warehouse=warehouse;
-        this.place=place;
     }
 
     @Override
@@ -24,13 +20,6 @@ public class Food extends Stuff implements Priceable,Productable,Locationable {
     public String  payment() {
         String payment="odeme gerceklestirildi.";
         return payment;
-    }
-
-    @Override
-    public String cargoStateInfo(){
-        String info = new String();
-        info="Gun icinde kargoya verilecektir.";
-        return info;
     }
 
     @Override
@@ -53,43 +42,46 @@ public class Food extends Stuff implements Priceable,Productable,Locationable {
     return false;
     }
 
+    @Override
+    public String cargoStateInfo(){
+        String info = new String();
+        info="Gun icinde kargoya verilecektir.";
+        return info;
+    }
+
 
     String getSection(){
         return section;
     }
 
-    int getProductId(){
-        return productId;
-    }
-
     @Override
     public String toString(){
-        String s = "Urunun satisi varmi?:" + purchase() + "\nUrunun iadesi varmi?:" + retrieval() + "\nBulundugu depo:" + warehouse()+"\nDepo icinde bulundugu yer:"+place()+"\nFiyat:"+price()+"\nOdeme durumu:"+payment()+"\nKargo durumu:"+cargoStateInfo();
+        String s = "Urunun satisi varmi?:" + purchase() + "\nUrunun iadesi varmi?:" + retrieval() + "\nBulundugu depo:" + warehouse()+"\nDepo icinde bulundugu yer:"+place+"\nFiyat:"+price()+"\nOdeme durumu:"+payment()+"\nKargo durumu:"+cargoStateInfo()+"\nhashcode:"+hashCode();
         return s;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        //default equals
-        if (o==this) {
-            return true;
-        }
-
-        //control
-        if(!(o instanceof Food)) {
-            return false;
-        }
-
-        Food f = (Food) o;
-        return getProductId()==f.getProductId();
-    }
-
-    @Override
-    public int hashCode() {
-        int hash=5;
-        hash=31*hash+getProductId();
-        return hash;
-    }
 
 
+//    @Override
+//    public boolean equals(Object o) {
+//        //default equals
+//        if (o==this) {
+//            return true;
+//        }
+//
+//        //control
+//        if(!(o instanceof Food)) {
+//            return false;
+//        }
+//
+//        Food f = (Food) o;
+//        return getProductId()==f.getProductId();
+//    }
+//
+//    @Override
+//    public int hashCode() {
+//        int hash=5;
+//        hash=31*hash+getProductId();
+//        return hash;
+//    }
 }
