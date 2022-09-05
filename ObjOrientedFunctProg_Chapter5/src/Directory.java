@@ -18,7 +18,7 @@ public class Directory extends Employee {
     public void work() {
         System.out.println("director works.");
     }
-    
+
     @Override
     public int getSalary() {
         return calculateSalary(getExperienceYears());

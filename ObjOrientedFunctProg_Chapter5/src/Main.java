@@ -5,7 +5,7 @@ public class Main {
         try {
             print(directory1);
             if ( calculate(directory1)>7000) {
-                throw new SalaryPaidOnBankException("bankadan cekmelisiniz");
+                throw new SalaryPaidOnBankException("Maasinizi bankadan cekmelisiniz.");
             }
 
         } catch (SalaryPaidOnBankException e) {
