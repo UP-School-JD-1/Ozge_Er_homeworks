@@ -1,4 +1,4 @@
-package hwrk1_abstract;
+package hwrk1_collections;
 import java.util.Comparator;
 
 public class StudentsComparator implements Comparator {

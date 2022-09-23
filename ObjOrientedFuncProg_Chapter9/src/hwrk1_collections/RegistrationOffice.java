@@ -1,4 +1,4 @@
-package hwrk1_abstract;
+package hwrk1_collections;
 import java.util.*;
 import java.util.Collections;
 
@@ -15,10 +15,7 @@ public class RegistrationOffice {
         Comparator<Students> st=new StudentsComparator();
         Collections.sort(students,st);
         students.forEach(System.out::println);
-//        Iterator i=students.iterator();
-//        while(i.hasNext()){
-//            System.out.println(i.next());
-//        }
+//
 //        rOffice.registerStudent(masterStudents);
 //        space();
 //        System.out.println("compare PhdStudent and Master Student:"+phdStudent.compareTo(masterStudents)+"\nPhd no:"+phdStudent.getNo()+"\nMaster no:"+masterStudents.getNo());
@@ -27,13 +24,6 @@ public class RegistrationOffice {
 //        space();
 //        System.out.println("compare same things:"+vocationalStudent.compareTo(vocationalStudent)+"\nVocational student no:"+vocationalStudent.getNo());
 //        space();
-//        rOffice.registerStudent(masterStudents2); //hashcode ların farklı oldugu gormek için iki tane aynı tip nesne gonderdim.
-//        space();
-//        rOffice.registerStudent(vocationalStudent);
-//        space();
-//        rOffice.registerStudent(undergraduateStudents);
-//        space();
-//        rOffice.registerStudent(phdStudent);
     }
 
     public static void space(){

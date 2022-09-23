@@ -1,4 +1,4 @@
-package hwrk1_abstract;
+package hwrk1_collections;
 
 public class UndergraduateStudents extends Students {
 

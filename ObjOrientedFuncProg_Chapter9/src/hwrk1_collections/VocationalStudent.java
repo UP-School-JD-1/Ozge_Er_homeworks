@@ -1,4 +1,4 @@
-package hwrk1_abstract;
+package hwrk1_collections;
 
 public class VocationalStudent extends Students {
     public VocationalStudent(int year,String major,String name,int no) {

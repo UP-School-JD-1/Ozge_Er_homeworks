@@ -1,5 +1,4 @@
-package hwrk1_abstract;
-import java.util.Comparator;
+package hwrk1_collections;
 
 public abstract class Students {
     private int year;
