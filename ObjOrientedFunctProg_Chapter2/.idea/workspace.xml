@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29662e8c-45ee-4608-a5d4-96f72bcb52e7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ObjOrientedFuncProg_Chapter3/hmwrk5_interface/src/hmwrk5_interface.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ObjOrientedFuncProg_Chapter3/hmwrk5_interface/src/out/production/hmwrk5_interface/hmwrk5_interface.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ObjOrientedFuncProg_Chapter9/ObjOrientedFuncProg_Chapter9.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/hwrk1_abstract/GraduateStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/hwrk1_abstract/MasterStudents.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/hwrk1_abstract/PhdStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/hwrk1_abstract/RegistrationOffice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/hwrk1_abstract/Students.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/hwrk1_abstract/UndergraduateStudents.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/hwrk1_abstract/VocationalStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hwrk1_abstract/RegistrationOffice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hwrk1_abstract/RegistrationOffice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hwrk1_abstract/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hwrk1_abstract/Students.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,11 +36,32 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Introduction_Java/Object-Oriented and Functional Programming with Java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Introduction_Java/PatikaStore" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
-  <component name="RunManager" selected="Application.RegistrationOffice (1)">
-    <configuration name="RegistrationOffice (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="RegistrationOffice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/hwrk1_abstract" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hwrk1_polimorfizm.*" />
+          <option name="ENABLED" value="false" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationOffice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="hwrk1_abstract.RegistrationOffice" />
       <module name="Polimorfizm_hwrk" />
       <extension name="coverage">
@@ -41,22 +74,72 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationOffice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hwrk1_polimorfizm.RegistrationOffice" />
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/hwrk1_abstract" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ComposePreviewRunConfiguration">
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="--es composable " />
+      <option name="MODE" value="specific_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Java />
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="androidx.compose.ui.tooling.PreviewActivity" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="true" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <compose-preview-run-configuration composable-fqn="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
       <module name="Polimorfizm_hwrk" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hwrk1_polimorfizm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Polimorfizm_hwrk" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Polimorfizm_hwrk" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RegistrationOffice (1)" />
+        <item itemvalue="Application.RegistrationOffice" />
         <item itemvalue="Application.RegistrationOffice" />
       </list>
     </recent_temporary>
@@ -73,6 +156,9 @@
       <workItem from="1661263361020" duration="216000" />
       <workItem from="1661275061145" duration="6064000" />
       <workItem from="1661326921484" duration="76000" />
+      <workItem from="1663701681784" duration="16683000" />
+      <workItem from="1663832060122" duration="474000" />
+      <workItem from="1663832583254" duration="10281000" />
     </task>
     <servers />
   </component>

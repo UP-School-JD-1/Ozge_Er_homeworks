@@ -10,6 +10,7 @@ public class RegistrationOffice {
 		VocationalStudent vocationalStudent = new VocationalStudent(1, "Electrics","Taha", 152);
 		UndergraduateStudents undergraduateStudents = new UndergraduateStudents(452, "OTOMATIC CONTROL","KORAY","NO MINOR",563);
 		rOffice.registerStudent(masterStudents);
+		phdStudent.compareTo(masterStudents);
 		space();
 		rOffice.registerStudent(masterStudents2); //hashcode ların farklı oldugu gormek için iki tane aynı tip nesne gonderdim.
 		space();
